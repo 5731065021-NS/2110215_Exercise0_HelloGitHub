@@ -22,6 +22,9 @@ public class Hello {
 		return "a";
 	}
 	
+	public static String arrayToString(String title,int[] array){
+	}
+	
 	public static int[] bubbleSort(int[] array){
 		// TODO Implement this method to sort the given array in an ascending order and return the sorted array.
 		Boolean isSwap = true;
@@ -37,9 +40,6 @@ public class Hello {
 			}
 		}while(isSwap);
 		return array;
-	}
-	
-	public static String arrayToString(String title,int[] array){
 		
 		String str = title + " : ";
 		for (int i = 0;i < array.length;i++)
